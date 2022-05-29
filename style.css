@@ -1,0 +1,340 @@
+.main{
+    position: relative;
+    width: 1920px;
+    height: 4600px;
+    background: #0B1D26;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+}
+.preview{
+    position: absolute;
+    width: 100%;
+}
+.bgContent{
+    height: 700px;
+    top: 1200px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+.vg{
+    height: 926px;
+    top: 768px;
+    background: url(images/VG.png);
+}
+.mg{
+    height: 1422px;
+    top: 464px;
+    background: url(images/MG.png);
+}
+.bgHero{
+    width: 1920px;
+    height: 1200px;
+    top: 0px;
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
+}
+.hg{
+    height: 1513px;
+    top: -400px;
+    background: url(images/HG.png);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 1760px;
+    height: 24px;
+    left: 80px;
+    top: 64px;
+    color: #FFFFFF;
+}
+.logo{
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    margin-left: 720px;
+}
+
+.navItem{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.navItem:not(:last-child){
+    margin-right: 40px;
+}
+.iconWrapper{
+    display: flex;
+    margin-left: 620px;
+    align-items: center;
+}
+
+.accountTitle{
+    padding: 10px;   
+}
+
+.titleWrapper{
+    position: relative;
+    top: 287px;
+    left: 500px;
+    height: 310px;
+    width: 950px;
+}
+
+.titleTextWrapper{
+    padding-left: 32px;
+    height: 22px;
+    width: 435px;
+}
+
+.titleText{
+    font-size: 18px;
+    color: #FBD784;
+    text-transform: uppercase;
+    font-style: Gilroy;
+    letter-spacing: 6px;
+}
+
+.line{
+    height: 2px;
+    width: 72px;
+    background-color: #FBD784;
+}
+
+.title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.titleDescription{
+    position: absolute;
+    font-size: 88px;
+    font-style: "Chronicle Display";
+    font-weight: 600;
+    padding-top: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.titleDescriptionWrapper{
+    max-height: 200px;
+    max-width: 950px;
+    top: 55px;
+}
+.contentWrapper{
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, 720px);
+    gap: 200px;
+    width: 1462px;
+    height: 3040px;
+    left: 229px;
+    top: 1100px;
+}
+.content{
+    display: flex;
+    width: 1462px;
+    height: 720px;
+}
+.contentImage{
+    width: 566px;
+    height: 720px;
+    transform: rotate3d(1, 0.5, 1, -30deg);
+}
+.contentText{
+    position: relative;
+    flex: none;
+    width: 896px;
+    height: 720px;
+}
+.equipment{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+}
+.equipment01{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.equipment02{
+    position: absolute;
+    top: 20px;
+    left: 114px;
+}
+.equipment03{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.wrapper{
+    position: absolute;
+    width: 632px;
+    height: 439px;
+}
+.text01{
+    top: 150px;
+    left: 125px;
+}
+.text02{
+    top: 150px;
+    left: 239px;
+}
+.text03{
+    top: 150px;
+    left: 125px;    
+}
+.tagline{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 22px;
+    top: 0px;
+    left: 0px;
+}
+.titleContent{
+    width: 555px;
+    height: 154px;
+    margin-top: 27px;
+    left: 0px;
+    font-size: 64px;
+    font-family: 'Chronicle Display';
+    font-weight: 600;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+.textContent{
+    width: 632px;
+    height: 160px;
+    left: 0px;
+    margin-top: 27px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+    color: #FFFFFF;
+    overflow: hidden;
+
+}
+.more{
+    display: flex;
+    align-items: center;
+    width: 127px;
+    height: 22px;
+    left: 0px;
+    margin-top: 27px;
+}
+.moreEquipment{
+    width: 87px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    font-family: Gilroy;
+    font-size: 18px;
+    color: #FBD784;
+    text-align: center;
+}
+.arrow{
+    cursor: pointer;
+    margin-left: 16px;
+    width: 24px;
+    height: 16px;
+}
+.footer{
+    display: flex;
+    width: 1462px;
+}
+.logotip{
+    width: 889px;
+    height: 280px;
+}
+.moreBlog{
+    width: 400px;
+    height: 280px;
+}
+.moreLogo{
+    width: 168px;
+    height: 280px;
+}
+.logodown{
+    width: 108px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.warning{
+    width: 303px;
+    height: 64px;
+    margin-top: 48px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+.copyright{
+    width: 347px;
+    height: 32px;
+    margin-top: 112px;
+    opacity: 0.5;
+    font-weight: 500;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.blogYellow{
+    width: 193px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FBD784;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+.logoYellow{
+    display: flex;
+    width: 168px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FBD784;
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+.footerBlog{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    cursor: pointer;
+    height: 32px;
+}
